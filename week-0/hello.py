@@ -8,7 +8,12 @@ name = input("What's your name? ")
 #Another way
 #When you pass multiple arguments into print,
 # It automatically creates a space.
-print("Hello,", name)
+#print("Hello,", name)
+
+print("Hello, ", end="")
+print(name)
+
+
 """
 This can also be used 
 for multiline comments
