@@ -27,5 +27,15 @@ print( z)
 x =  float( input("What is your first numer? "))
 y=  float(input("What is your second numer? ")) 
 
-z=round(x +y)
-print(f"{z}")
+# z=round(x +y)
+# print(f"{z}")
+
+# Let's format the string with commas
+# print(f"{z:,}")
+
+# Division and rounding to 2 decimal places
+# z=round(x / y, 2)
+# Rounding to 2 decimal places  with fstring formatting.
+z = x/y
+print(f"{z:.2f}")
+# print(z)

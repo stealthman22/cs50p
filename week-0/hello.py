@@ -44,14 +44,33 @@
 
 
 # We can make it even tighter  and cuter 
-name = input("What's your age? ").strip().title()
+# name = input("What's your age? ").strip().title()
 
 
 
 # Split user's name into first name and last name
 # Try to remember js's equivalent of this.
-first, last= name.split(" ")
-print(f"Hello, {first}")
+# first, last= name.split(" ")
+# print(f"Hello, {first}")
+
+
+# Creating our own hello funtion
+#mine
+# def hello():
+#  name = input("What's your name?  ").strip().title()
+#  print(f"Hello {name}")
+
+
+#David'set
+def hello(to="world"):
+ # To is a parameter here
+ print("hello, ", to)
+
+# name is the argumetn of the function and it is copied into to
+hello()
+name = input("What's your name?  ").title().strip()
+hello(name)
+
 """
 This can also be used 
 for multiline comments
