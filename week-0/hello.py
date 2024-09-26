@@ -61,7 +61,7 @@
 #  print(f"Hello {name}")
 
 
-#David'set
+#David solutuon
 def hello(to="world"):
  # To is a parameter here
  print("hello, ", to)
