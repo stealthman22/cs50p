@@ -1,7 +1,7 @@
-x = 1
-y =2
-z= x + y
-print( z)
+# x = 1
+# y =2
+# z= x + y
+# print( z)
 
 # Trying David's next point myself
 # x =  int( input("What is your first numer? "))
@@ -24,8 +24,8 @@ print( z)
 
 
 
-x =  float( input("What is your first numer? "))
-y=  float(input("What is your second numer? ")) 
+# x =  float( input("What is your first numer? "))
+# y=  float(input("What is your second numer? ")) 
 
 # z=round(x +y)
 # print(f"{z}")
@@ -36,6 +36,23 @@ y=  float(input("What is your second numer? "))
 # Division and rounding to 2 decimal places
 # z=round(x / y, 2)
 # Rounding to 2 decimal places  with fstring formatting.
-z = x/y
-print(f"{z:.2f}")
+# z = x/y
+# print(f"{z:.2f}")
 # print(z)
+
+
+
+#  New Function
+
+def main():
+ x= int(input("What's X?"))
+ squared(x)
+
+
+
+def squared(square):
+ num_squared = square * square
+ return num_squared
+	
+main()
+
