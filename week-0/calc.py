@@ -66,7 +66,7 @@ def main():
 
 
 def square(n):
-    # n = n * n This makes the function run twice
+    # n = n * n
     # return n * n
     # return n**2
     return pow(n, 2)
