@@ -26,10 +26,17 @@ def main():
 
 
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    # if n % 2 == 0:
+    #     return True
+    # else:
+    #     return False
+
+    # Using python's one-liner conditional expression
+    # return True if n % 2 == 0 else False
+
+    # Even tighter?
+    # Would automatically equate to truthy or falsy.
+    return n % 2 == 0
 
 
 main()
