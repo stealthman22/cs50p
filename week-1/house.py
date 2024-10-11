@@ -27,7 +27,4 @@ match name:
     case _:
         print("Who?")
 
-# Python
-"""
 
-"""
