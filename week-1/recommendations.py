@@ -24,4 +24,3 @@ def recommend(game):
 #next step
 
 main()
-#  Resuming 
